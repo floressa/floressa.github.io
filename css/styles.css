@@ -13,12 +13,27 @@ body {
     width: 70%;
 }
 
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
+}
+
+footer {
+    border-top: 1px solid #d5d5d5;
+    text-align: center;
+}
+
+footer ul li a img {
+    width: 1.5em;
+    height: 1.5em;
+}
+
 a {
     text-decoration: none;
     color: #999;
 }
 a:hover {
-    /* text-decoration: underline; */
     color: #c00;
 }
 
