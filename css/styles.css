@@ -76,6 +76,11 @@ ul.posts li {
     list-style: none;
 }
 
+.post {
+    height: 150px;
+    overflow: scroll;
+}
+
 .back_link {
     text-align: right;
     line-height: 1.5em;
