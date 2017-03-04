@@ -8,6 +8,16 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    font-family: 'CMUSerifRoman'; 
+    font-weight: normal; 
+    font-style: normal; 
+    font-size: 2em;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
 body {
     margin: 60px auto;
     width: 70%;
