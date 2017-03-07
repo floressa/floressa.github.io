@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "A Website Appears!"
+thumbnail: "/images/placeholder.jpg"
 date: 2017-03-02
 ---
 

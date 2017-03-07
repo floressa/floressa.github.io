@@ -2,6 +2,24 @@
 layout: default
 title: Samuel Flores
 ---
-<div class="blurb">
-	<p>Hi! My name is Samuel Flores. I'm a Computer Science (Games) major at the University of Southern California. Welcome to my personal website! Sorry about the mess, the site is currently under construction, but if you need some professional info about me or are looking for a way to get in touch with me, you can find a link to my resume above and links to ways to contact me below. <a href="/about">Who am I?</a></p>
-</div><!-- /.blurb -->
+<h2>Projects</h2>
+<div class="imagePane">
+	
+	<table>
+
+		{% for post in site.posts %}
+  			{% assign loopindex = forloop.index | modulo: 4 %}
+			{% if loopindex == 1 %}
+				<tr>
+					<td><a href="{{ post.url }}" title="{{ post.title }}"><img src="{{ post.thumbnail }}"></a></li>
+			{% elsif loopindex == 4 %}
+					<td><a href="{{ post.url }}" title="{{ post.title }}"><img src="{{ post.thumbnail }}"></a></li>
+				</tr>
+			{% else %}
+				<td><a href="{{ post.url }}" title="{{ post.title }}"><img src="{{ post.thumbnail }}"></a></li>
+			{% endif %}
+		{% endfor %}
+		
+		
+	</table>
+</div>
