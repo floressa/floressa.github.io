@@ -1,25 +1,21 @@
----
-layout: default
-title: Samuel Flores
----
-<h2>Projects</h2>
-<div class="imagePane">
-	
-	<table>
+<!doctype html>
 
-		{% for post in site.posts %}
-  			{% assign loopindex = forloop.index | modulo: 4 %}
-			{% if loopindex == 1 %}
-				<tr>
-					<td><a href="{{ post.url }}" title="{{ post.title }}"><img src="{{ post.thumbnail }}"></a></li>
-			{% elsif loopindex == 4 %}
-					<td><a href="{{ post.url }}" title="{{ post.title }}"><img src="{{ post.thumbnail }}"></a></li>
-				</tr>
-			{% else %}
-				<td><a href="{{ post.url }}" title="{{ post.title }}"><img src="{{ post.thumbnail }}"></a></li>
-			{% endif %}
-		{% endfor %}
-		
-		
-	</table>
-</div>
+<html lang="en">
+	
+<head>
+	<meta charset="utf-8">
+
+	<title>Samuel Flores</title>
+
+	<meta name="description" content="Samuel Flores's personal website">
+	<meta name="author" content="Samuel Flores">
+  
+	<link rel="stylesheet" href="css/styles.css?v=1.0">
+
+</head>
+
+<body>
+	<script src="js/scripts.js"></script>
+</body>
+
+</html>
