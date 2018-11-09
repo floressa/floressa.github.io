@@ -1,0 +1,19 @@
+{
+  "name": "floressa.github.io",
+  "version": "1.0.0",
+  "description": "Samuel Flores's personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/floressa/floressa.github.io.git"
+  },
+  "author": "Samuel Flores",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/floressa/floressa.github.io/issues"
+  },
+  "homepage": "https://github.com/floressa/floressa.github.io#readme"
+}
