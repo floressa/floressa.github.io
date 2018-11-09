@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/floressa/floressa.github.io/issues"
   },
-  "homepage": "https://github.com/floressa/floressa.github.io#readme"
+  "homepage": "https://github.com/floressa/floressa.github.io#readme",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "webpack": "^4.25.1"
+  }
 }
